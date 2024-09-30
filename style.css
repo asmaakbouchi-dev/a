@@ -88,7 +88,7 @@ section{
     padding: 2rem 9%;
     background: var(--second-bg-color);
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
@@ -125,7 +125,7 @@ color: var(--main-color);
 #menu-icon{
     font-size: 3.6rem;
     color: var(--text-color);
-    opacity: 0;
+    display: none;
 }
 
 .home{
@@ -148,10 +148,10 @@ span{
     color: var(--main-color);
 }
 #job{
-    color:var(--main-color) ;  
-    /* background: -webkit-linear-gradient( var(--main-color), var(--bg-color));
+   
+    background: -webkit-linear-gradient( var(--main-color), var(--bg-color));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
 }
 .home-content h1{
     font-size: 5.6rem; ;
